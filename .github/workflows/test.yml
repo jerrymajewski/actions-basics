@@ -23,7 +23,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Show context
-        uses: actions/github-scripts@v4
+        uses: actions/github-script@v4
         with:
           script: |
             console.log(JSON.stringify(context, null, 2));
